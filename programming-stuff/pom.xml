@@ -16,8 +16,22 @@
     <packaging>pom</packaging>
 
     <modules>
-        <!--  -->
+        <module>programming-stuff-common</module>
+        <module>programming-stuff-awaitility</module>
+        <module>programming-stuff-mockito</module>
+        <module>programming-stuff-count-down-latch</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- common -->
+            <dependency>
+                <groupId>dev.drf.prog</groupId>
+                <artifactId>programming-stuff-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
         <!-- test -->
