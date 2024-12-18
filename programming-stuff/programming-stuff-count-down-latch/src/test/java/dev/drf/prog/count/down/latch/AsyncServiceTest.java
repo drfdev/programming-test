@@ -1,5 +1,6 @@
 package dev.drf.prog.count.down.latch;
 
+import dev.drf.prog.common.AwaitAsync;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -17,6 +18,7 @@ public class AsyncServiceTest {
         this.service = new AsyncService();
     }
 
+    @AwaitAsync
     @Test
     void countDownLatchExample() throws Exception {
         // prepare
