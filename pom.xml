@@ -19,9 +19,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
-        <java.version>21</java.version>
+        <maven.compiler.source>25</maven.compiler.source>
+        <maven.compiler.target>25</maven.compiler.target>
+        <java.version>25</java.version>
 
         <!-- test -->
         <junit-jupiter.version>5.10.1</junit-jupiter.version>
@@ -33,7 +33,7 @@
 
         <!-- stuff -->
         <awaitility.version>4.2.2</awaitility.version>
-        <mockito.version>5.14.2</mockito.version>
+        <mockito.version>5.21.0</mockito.version>
     </properties>
 
     <dependencyManagement>
