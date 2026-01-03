@@ -15,6 +15,7 @@
         <module>programming-structures</module>
         <module>programming-stuff</module>
         <module>programming-libs</module>
+        <module>programming-fun</module>
     </modules>
 
     <properties>
