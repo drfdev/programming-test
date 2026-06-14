@@ -1,6 +1,6 @@
 package dev.drf.prog.structures.queue;
 
-public class DrfQueue<T> implements Queue<T> {
+public final class DrfQueue<T> implements Queue<T> {
     private ValueWrapper<T> root;
     private ValueWrapper<T> last;
 
