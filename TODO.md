@@ -1,7 +1,12 @@
-Trie
-Binary Tree
-Red-Black Tree
-Interval Map
-Trie Map
+programming-structures:
+ * Tree
+ * Binary Search Tree
+ * Heap
+ * Graph
+ * Trie
+ * Disjoint Set (Union-Find)
+ * Bloom Filter
+ * LRU Cache
 
-Dictionary (search with errors)
+---
+
